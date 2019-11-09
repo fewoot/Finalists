@@ -1,6 +1,72 @@
 # 2020-5月机器人格斗大赛赛前准备  
 ###### 创建日期：2019年10月31日10:40:24  
 ----------------------
+## 准备-任务：
+
+### 1.测量铲子和绝对平面的间隙（铲子下底面平整度）  
+资料：
+1. > Flatness is can be measured using a height gauge run across the surface of the part if only the reference feature is held parallel. 
+You are trying making sure that any point along the surface does not go above or below the tolerance zone. 
+Modern CMM’s are best for measuring the part as they can create virtual planes that the true surface profile can be compared to. 
+This is a 3D measurement so points must be measured across the length and width of the part to ensure the entire surface is in tolerance. 
+Flatness cannot be measured by simply placing the part on a granite slab and running a height gauge or microheight over it. 
+This would be measuring parallelism instead as you are fixing the bottom of the part as a datum.  
+
+摘自  [GD&T国外网站，平整度](https://www.cnblogs.com/wj-1314/p/8547763.html)
+
+2. >  The problem is severalfold. 
+The first issue is that flatness is only measured against itself, there is no datum reference plane. 
+The second issue is that how can you be absolutely sure (short of a 3D laser scan) that you have actually found the highest point as you reference. 
+The three point (column) method serves to establish a starting point and not really a datum reference. 
+Recall that 3 points define a plane that should in reality be a pretty good representation of the surface you are checking. 
+Then you can take your indicator probe and sweep the surface with flatness.
+Another method of checking flatness is to do the following. Your inspection table has a hole in it just large enough to pass a dial indicator probe through. 
+You place the surface you are checking for flatness in contact with both the inspection surface (and the dial indicator probe). As you move the part over the prove it will move up and down. This reading is telling you what your flatness error is.
+
+摘自  [国外讨论，平整度](https://www.gdandtbasics.com/flatness)
+
+3. > The flatness control may be inspected as follows:
+The part’s surface is placed on a surface plate. This surface plate represents one of the flatness control tolerance zone planes.
+A dial indicator is placed in a hole in the surface plate and measures the distance from the plate’s surface to the part’s surface. 
+As the part is rotated, the measuring instrument must up or down the part and the profile of the cylinder is captured.
+The part’s surface is moved over the hole at random. If at any time the FIM (full indicator movement) is larger than the flatness control tolerance, the part is not within specifications.
+
+摘自 [平整度，网址去掉https](https://www.engineeringessentials.com/gdt/flatness/flatness.htm)
+
+4. > There are a number of ways to measure the flatness of a surface. The most common method within the Flat Lapping sector is by using a Monochromatic Sodium light unit and an Optical Flat. This gives extremely precise measurements, more accurate than most CMM measurements, in an economical way.
+
+摘自 [光学平整度测量，国外，此网站支持计算，还支持购买](https://www.kemet.co.uk/blog/lapping/how-to-measure-flatness-technical-article)
+
+5. > Using a height gage to evaluate flatness   
+   > Evaluating flatness using digital methods
+   > With the advent of digital methods of evaluating GD&T using portable CMMs and advanced 3D metrology software
+
+摘自 [平整度测量方法比较，国外网站](https://insights.faro.com/buildit-software/how-to-evaluate-flatness-in-gd-t)
+
+6. 小提示：在用探头进行测量时，应该将零件放在一个面上，探头从下绕过孔中穿过去测量
+
+7.千分尺
+
+摘自 [国内千分尺，去掉http](https://www.wmt.com.cn/list/?16_1.html)
+
+
+
+方法：   
+ 1.  3米直尺法  （测量路面，可能无法测量细小的平面）
+ 2.  连续平整度仪法（测量路面，无法测量细小平面）
+ 3.  水准仪法（测量一块区域的铅锤平面）
+ 4.  总结：  
+     1. CMM自动化机床
+     2. 牛顿环干涉测量
+     3. 接触式平整度测量仪
+     4. 激光反射，PSD测量
+       
+
+
+
+
+
+
 ## 准备-学习  :
 
 ***************
